@@ -1,5 +1,7 @@
 import React from "react";
-import HTML from "../assets/html (1).png";
+import weatherImg from "../assets/weather.png";
+import ecommerceImg from "../assets/ecommerce.png";
+import evoteImg from "../assets/evoting.png";
 
 const Work = () => {
   return (
@@ -14,7 +16,7 @@ const Work = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div
-            style={{ backgroundImage: `url(${HTML})` }}
+            style={{ backgroundImage: `url(${weatherImg})` }}
             className="shadow-lg  shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
@@ -36,7 +38,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${HTML})` }}
+            style={{ backgroundImage: `url(${evoteImg})` }}
             className="shadow-lg  shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
@@ -58,7 +60,7 @@ const Work = () => {
             </div>
           </div>
              <div
-            style={{ backgroundImage: `url(${HTML})` }}
+            style={{ backgroundImage: `url(${ecommerceImg})` }}
             className="shadow-lg  shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
